@@ -31,12 +31,12 @@ const ADV_ICONS = {
 const STAT_VALUES = ['500+', '15+', '100%', '24/7']
 
 const PROJECT_IMAGES = [
-  'https://images.unsplash.com/photo-1618482914248-29272d021005?w=800',
-  'https://images.unsplash.com/photo-1600707957928-a629a6e08bf3?w=800',
-  'https://images.unsplash.com/photo-1656057497463-37e68d6ff329?w=800',
-  'https://images.unsplash.com/photo-1584527810790-01a904be796b?w=800',
-  'https://images.unsplash.com/photo-1609234153285-78b715b9dfd7?w=800',
-  'https://images.unsplash.com/photo-1573846764373-39f57aaeda0a?w=800'
+  '/public/projectFoto/1.png',
+  '/public/projectFoto/2.png',
+  '/public/projectFoto/3.png',
+  '/public/projectFoto/4.png',
+  '/public/projectFoto/5.png',
+  '/public/projectFoto/6.png'
 ]
 
 export default function MainPage() {
