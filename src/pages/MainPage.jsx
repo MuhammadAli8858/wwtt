@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
   Camera,
@@ -13,6 +14,7 @@ import {
 import ImageWithFallback from '../components/figma/ImageWithFallback.jsx'
 import LanguageSwitcher from '../components/LanguageSwitcher.jsx'
 import SignThumbnail from '../components/SignThumbnail.jsx'
+import Lightbox from '../components/Lightbox.jsx'
 import { useLanguage } from '../i18n/LanguageContext.jsx'
 import { roadSigns } from '../data/roadSigns.js'
 import { services } from '../data/services.js'
@@ -42,6 +44,8 @@ const PROJECT_IMAGES = [
 export default function MainPage() {
   const navigate = useNavigate()
   const { t, tr } = useLanguage()
+  const [projectIndex, setProjectIndex] = useState(null)
+
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id)
@@ -306,7 +310,7 @@ export default function MainPage() {
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-zinc-900 mb-12 text-center">{t('projects.title')}</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            {PROJECT_IMAGES.map((img, idx) => (
+            {/* {PROJECT_IMAGES.map((img, idx) => (
               <div key={idx} className="aspect-video rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
                 <ImageWithFallback
                   src={img}
@@ -314,6 +318,21 @@ export default function MainPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
+            ))} */}
+
+            {PROJECT_IMAGES.map((img, idx) => (
+              <button
+                type="button"
+                key={idx}
+                onClick={() => setProjectIndex(idx)}
+                className="aspect-video rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform cursor-zoom-in"
+              >
+                <ImageWithFallback
+                  src={img}
+                  alt={`${t('projects.title')} ${idx + 4}`}
+                  className="w-full h-full object-cover"
+                />
+              </button>
             ))}
           </div>
         </div>
@@ -414,6 +433,12 @@ export default function MainPage() {
           </p>
         </div>
       </footer>
+      <Lightbox
+        images={PROJECT_IMAGES}
+        index={projectIndex}
+        onChange={setProjectIndex}
+        onClose={() => setProjectIndex(null)}
+      />
     </div>
   )
 }
