@@ -31,12 +31,12 @@ const ADV_ICONS = {
 const STAT_VALUES = ['500+', '15+', '100%', '24/7']
 
 const PROJECT_IMAGES = [
-  '/public/projectFoto/1.png',
-  '/public/projectFoto/2.png',
-  '/public/projectFoto/3.png',
-  '/public/projectFoto/4.png',
-  '/public/projectFoto/5.png',
-  '/public/projectFoto/6.png'
+  '/projectFoto/1.png',
+  '/projectFoto/2.png',
+  '/projectFoto/3.png',
+  '/projectFoto/4.png',
+  '/projectFoto/5.png',
+  '/projectFoto/6.png'
 ]
 
 export default function MainPage() {
