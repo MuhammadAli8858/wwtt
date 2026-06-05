@@ -28,6 +28,15 @@ export const poles = [
       tr: '7 metre',
       uz: '7 metr',
     },
+        takeaway: {
+      ru: '0 метра',
+      en: '0 meters',
+      zh: '0 米',
+      kk: '0 метр',
+      be: '0 метры',
+      tr: '0 metre',
+      uz: '0 metr',
+    },
     description: {
       ru: 'Универсальная конструкция для камер фиксации скорости и нарушений',
       en: 'A universal structure for speed and violation enforcement cameras',
@@ -76,6 +85,15 @@ export const poles = [
       tr: '7 metre',
       uz: '7 metr',
     },
+    takeaway: {
+      ru: '3 метра',
+      en: '3 meters',
+      zh: '3 米',
+      kk: '3 метр',
+      be: '3 метры',
+      tr: '3 metre',
+      uz: '3 metr',
+    },
     description: {
       ru: 'Компактная консольная конструкция для городских условий',
       en: 'A compact cantilever structure for urban conditions',
@@ -122,6 +140,15 @@ export const poles = [
       be: '7 метраў',
       tr: '7 metre',
       uz: '7 metr',
+    },
+        takeaway: {
+      ru: '5 метра',
+      en: '5 meters',
+      zh: '5 米',
+      kk: '5 метр',
+      be: '5 метры',
+      tr: '5 metre',
+      uz: '5 metr',
     },
     description: {
       ru: 'Высокая консоль для магистралей и многополосных дорог',

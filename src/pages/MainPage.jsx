@@ -310,16 +310,6 @@ export default function MainPage() {
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-zinc-900 mb-12 text-center">{t('projects.title')}</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            {/* {PROJECT_IMAGES.map((img, idx) => (
-              <div key={idx} className="aspect-video rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-                <ImageWithFallback
-                  src={img}
-                  alt={`${t('projects.title')} ${idx + 1}`}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            ))} */}
-
             {PROJECT_IMAGES.map((img, idx) => (
               <button
                 type="button"

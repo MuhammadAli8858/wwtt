@@ -121,6 +121,10 @@ export default function PoleDetailPage() {
                 <span className="text-zinc-900">{tr(pole.height)}</span>
               </div>
               <div className="flex justify-between py-3 border-b border-zinc-200">
+                <span className="font-semibold text-zinc-700">{t('poleDetail.specTakeaway')}</span>
+                <span className="text-zinc-900">{tr(pole.takeaway)}</span>
+              </div>
+              <div className="flex justify-between py-3 border-b border-zinc-200">
                 <span className="font-semibold text-zinc-700">{t('poleDetail.specMaterial')}</span>
                 <span className="text-zinc-900">{tr(pole.specifications.material)}</span>
               </div>
