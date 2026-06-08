@@ -1,5 +1,3 @@
-// Pole / pillar catalogue. Every user-visible text field is multilingual:
-// { ru, en, zh, kk, be, tr, uz }. Price is always "on request" (handled in UI).
 
 export const poles = [
   {

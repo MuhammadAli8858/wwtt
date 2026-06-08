@@ -2,12 +2,7 @@ import { useEffect } from 'react'
 import { ChevronLeft, ChevronRight, X } from 'lucide-react'
 import ImageWithFallback from './figma/ImageWithFallback.jsx'
 
-// Reusable near-fullscreen image viewer shown over the whole page.
-// Controlled by the parent:
-//   images   - array of image URLs
-//   index    - number to open at that image, or null to stay closed
-//   onChange - called with the new index when navigating (prev/next/arrows)
-//   onClose  - called when the viewer should close (X, backdrop, Esc)
+
 export default function Lightbox({ images = [], index = null, onChange, onClose }) {
   const open = index !== null && images.length > 0
 

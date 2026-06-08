@@ -1,6 +1,3 @@
-// Structured page content (advantages, process steps, certificates).
-// Text fields are multilingual { ru, en, zh, kk, be, tr, uz }.
-// `icon` keys map to lucide-react components inside MainPage.
 
 export const advantages = [
   {

@@ -398,7 +398,7 @@ export default function MainPage() {
               <div className="mt-8 p-6 bg-zinc-50 rounded-2xl">
                 <div className="font-semibold text-zinc-900 mb-2">{t('contact.workHours')}</div>
                 <div className="text-zinc-600">{t('contact.workHours1')}</div>
-                <div className="text-zinc-600">{t('contact.workHours2')}</div>
+                {/* <div className="text-zinc-600">{t('contact.workHours2')}</div> */}
                 <div className="text-zinc-600">{t('contact.workHours3')}</div>
               </div>
             </div>

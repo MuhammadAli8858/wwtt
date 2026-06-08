@@ -1,5 +1,3 @@
-// Services catalogue: the 6 original services followed by the 14 new ones.
-// Each title and description is multilingual { ru, en, zh, kk, be, tr, uz }.
 
 export const services = [
   {

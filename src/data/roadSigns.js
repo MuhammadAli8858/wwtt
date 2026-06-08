@@ -1,6 +1,3 @@
-// All textual fields are multilingual objects: { ru, en, zh, kk, be, tr, uz }.
-// `id` and `code` stay as plain strings. Standard codes (ГОСТ / ТР ТС) are kept
-// verbatim across languages via the code() helper.
 
 const code = (s) => ({ ru: s, en: s, zh: s, kk: s, be: s, tr: s, uz: s })
 

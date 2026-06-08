@@ -1,7 +1,3 @@
-// UI string translations for 7 languages.
-// Keys are flat (dot-notation strings). Lookup: translations[lang][key].
-// Languages: ru (Russian), en (English), zh (Chinese), kk (Kazakh),
-// be (Belarusian), tr (Turkish), uz (Uzbek).
 
 export const translations = {
   // ----------------------------------------------------------------- Russian
@@ -60,8 +56,8 @@ export const translations = {
     'contact.addressValue': 'г. Ташкент, ул. Мустакиллик, 100',
     'contact.workHours': 'Режим работы',
     'contact.workHours1': 'Пн-Пт: 9:00 - 18:00',
-    'contact.workHours2': 'Сб: 9:00 - 14:00',
-    'contact.workHours3': 'Вс: Выходной',
+    // 'contact.workHours2': 'Сб: 9:00 - 14:00',
+    'contact.workHours3': 'Вс-Сб: Выходной',
 
     'footer.tagline': 'Профессиональная установка столбов и дорожных знаков для систем фиксации нарушений',
     'footer.copyright': '© 2026 WORLD WIDE TRADE TEAM. Все права защищены.',
@@ -162,8 +158,8 @@ export const translations = {
     'contact.addressValue': 'Tashkent, Mustakillik St., 100',
     'contact.workHours': 'Working hours',
     'contact.workHours1': 'Mon-Fri: 9:00 - 18:00',
-    'contact.workHours2': 'Sat: 9:00 - 14:00',
-    'contact.workHours3': 'Sun: Closed',
+    // 'contact.workHours2': 'Sat: 9:00 - 14:00',
+    'contact.workHours3': 'Sun-Sat: Day off',
 
     'footer.tagline': 'Professional installation of poles and road signs for traffic enforcement systems',
     'footer.copyright': '© 2026 WORLD WIDE TRADE TEAM. All rights reserved.',
@@ -263,8 +259,8 @@ export const translations = {
     'contact.addressValue': '塔什干市，穆斯塔基利克街 100 号',
     'contact.workHours': '营业时间',
     'contact.workHours1': '周一至周五：9:00 - 18:00',
-    'contact.workHours2': '周六：9:00 - 14:00',
-    'contact.workHours3': '周日：休息',
+    // 'contact.workHours2': '周六：9:00 - 14:00',
+    'contact.workHours3': 'Sun-Sat:休息日',
 
     'footer.tagline': '为违章抓拍系统专业安装立柱和道路标志',
     'footer.copyright': '© 2026 WORLD WIDE TRADE TEAM. 版权所有。',
@@ -364,8 +360,8 @@ export const translations = {
     'contact.addressValue': 'Ташкент қ., Мустакиллик к-сі, 100',
     'contact.workHours': 'Жұмыс кестесі',
     'contact.workHours1': 'Дс-Жм: 9:00 - 18:00',
-    'contact.workHours2': 'Сб: 9:00 - 14:00',
-    'contact.workHours3': 'Жс: Демалыс',
+    // 'contact.workHours2': 'Сб: 9:00 - 14:00',
+    'contact.workHours3': 'Жс-Себ: Демалыс',
 
     'footer.tagline': 'Бұзушылықтарды тіркеу жүйелері үшін бағаналар мен жол белгілерін кәсіби орнату',
     'footer.copyright': '© 2026 WORLD WIDE TRADE TEAM. Барлық құқықтар қорғалған.',
@@ -465,8 +461,8 @@ export const translations = {
     'contact.addressValue': 'г. Ташкент, вул. Мустакіллік, 100',
     'contact.workHours': 'Рэжым працы',
     'contact.workHours1': 'Пн-Пт: 9:00 - 18:00',
-    'contact.workHours2': 'Сб: 9:00 - 14:00',
-    'contact.workHours3': 'Нд: Выхадны',
+    // 'contact.workHours2': 'Сб: 9:00 - 14:00',
+    'contact.workHours3': 'Ув-Сб: Выхадны',
 
     'footer.tagline': 'Прафесійная ўстаноўка слупоў і дарожных знакаў для сістэм фіксацыі парушэнняў',
     'footer.copyright': '© 2026 WORLD WIDE TRADE TEAM. Усе правы абаронены.',
@@ -566,8 +562,8 @@ export const translations = {
     'contact.addressValue': 'Taşkent, Mustakillik Cad., 100',
     'contact.workHours': 'Çalışma saatleri',
     'contact.workHours1': 'Pzt-Cum: 9:00 - 18:00',
-    'contact.workHours2': 'Cmt: 9:00 - 14:00',
-    'contact.workHours3': 'Paz: Kapalı',
+    // 'contact.workHours2': 'Cmt: 9:00 - 14:00',
+    'contact.workHours3': 'Dir-Cum: tatil günü',
 
     'footer.tagline': 'İhlal tespit sistemleri için direklerin ve trafik işaretlerinin profesyonel kurulumu',
     'footer.copyright': '© 2026 WORLD WIDE TRADE TEAM. Tüm hakları saklıdır.',
@@ -667,8 +663,8 @@ export const translations = {
     'contact.addressValue': 'Toshkent sh., Mustaqillik ko‘ch., 100',
     'contact.workHours': 'Ish vaqti',
     'contact.workHours1': 'Du-Ju: 9:00 - 18:00',
-    'contact.workHours2': 'Sh: 9:00 - 14:00',
-    'contact.workHours3': 'Ya: Dam olish',
+    // 'contact.workHours2': 'Sh: 9:00 - 14:00',
+    'contact.workHours3': 'Ya-Shb: Dam olish',
 
     'footer.tagline': 'Qoidabuzarliklarni qayd etish tizimlari uchun ustunlar va yo‘l belgilarini professional o‘rnatish',
     'footer.copyright': '© 2026 WORLD WIDE TRADE TEAM. Barcha huquqlar himoyalangan.',

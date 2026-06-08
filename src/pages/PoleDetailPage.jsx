@@ -1,6 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { ArrowLeft, CheckCircle, Shield, FileText, Phone } from 'lucide-react'
-// import ImageWithFallback from '../components/figma/ImageWithFallback.jsx'
 import PoleGallery from '../components/PoleGallery.jsx'
 import LanguageSwitcher from '../components/LanguageSwitcher.jsx'
 import { useLanguage } from '../i18n/LanguageContext.jsx'
