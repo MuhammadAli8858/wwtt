@@ -96,13 +96,13 @@ export default function MainPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-zinc-900/90 to-transparent"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight break-words">
             {t('hero.title')}
           </h1>
-          <p className="text-2xl text-zinc-300 mb-10 max-w-2xl">
+          <p className="text-lg sm:text-xl md:text-2xl text-zinc-300 mb-10 max-w-2xl">
             {t('hero.subtitle')}
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <button onClick={() => scrollToSection('contact')} className="bg-yellow-500 hover:bg-yellow-600 text-zinc-900 px-8 py-4 rounded-xl font-semibold text-lg transition-colors">
               {t('hero.getConsultation')}
             </button>
