@@ -65,9 +65,7 @@ export default function MainPage() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-zinc-900/95 backdrop-blur-sm border-b border-zinc-800">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-yellow-500 rounded-lg flex items-center justify-center">
-              <Camera className="text-zinc-900" size={24} />
-            </div>
+            <img src="/Logo.svg" alt="WORLD WIDE TRADE TEAM" className="w-10 h-10 rounded-lg" />
             <div>
               <div className="font-bold text-white text-lg">WORLD WIDE TRADE TEAM</div>
               <div className="text-xs text-zinc-400">{t('nav.subtitle')}</div>
@@ -410,9 +408,7 @@ export default function MainPage() {
       <footer className="bg-zinc-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-10 h-10 bg-yellow-500 rounded-lg flex items-center justify-center">
-              <Camera className="text-zinc-900" size={24} />
-            </div>
+            <img src="/Logo.svg" alt="WORLD WIDE TRADE TEAM" className="w-10 h-10 rounded-lg" />
             <div className="font-bold text-xl">WORLD WIDE TRADE TEAM</div>
           </div>
           <p className="text-zinc-400 mb-4">
